@@ -1,0 +1,11 @@
+{
+  "name": "hello, world",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "say hello!!",
+
+  "browser_action": {
+    "default_title": "hello, world",
+    "default_popup": "popup.html"
+  }
+}
