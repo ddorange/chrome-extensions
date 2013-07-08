@@ -1,0 +1,16 @@
+{
+	"name": "Application Name",
+	"version": "0.0.1",
+	"icons":{
+		"48":"app_icon.png"
+	},
+	"manifest_version":2,
+	"content_scripts": [{
+		"matches":["http://hostname/*"],
+		"js":[
+			"modules/mypage.js",
+			"app.js"
+		],
+		"run_at":"document_end"
+	}]
+}
